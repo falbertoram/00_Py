@@ -15,3 +15,5 @@ comentarios
 de varias
 lineas
 '''
+
+print(type("this is a string"))
