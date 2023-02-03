@@ -18,4 +18,4 @@ lineas
 
 print(type("this is a string"))
 print(type(True))
-print(type(6))
+print(type(7))
