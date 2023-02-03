@@ -1,5 +1,5 @@
 # Este es un comentario
-print("Hello tavyrones")
+print("Hello tavyrones 2")
 print('Hello nde tavyshos')
 
 """
@@ -8,3 +8,10 @@ de
 varias
 lineas
 """
+
+'''
+mas 
+comentarios
+de varias
+lineas
+'''
