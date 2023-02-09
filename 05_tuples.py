@@ -47,3 +47,4 @@ print(type(my_tuple))
                 # fue borrado en la linea anterior
 
 #del my_tuple[2] # Tuple does not support item deletion
+
