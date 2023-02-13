@@ -43,3 +43,16 @@ except ValueError: # Se ejecuta solo si se produce un ValueError
 except TypeError: # Se ejecuta solo si se produce un TypeError
     # Se ejecuta si se produce un error
     print("Se ha producido un TypeError")
+
+
+##### Captura de la informacion de la excepcion #####
+
+try:
+    print(number_one + number_two)
+    print("No se ha producido un error")
+except TypeError as e: 
+    print("WATCH OUT JAMES! " + str(e))
+except Exception as e: # Captura cualquier otro tipo de error
+                    # que se de distinto a TypeError
+    print("WATCH OUT JAMES! " + str(e))
+
