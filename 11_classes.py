@@ -19,7 +19,7 @@ class Person:
 
 my_person = Person("James", "Bond")
 print(f"{my_person.name} {my_person.surname} {my_person.nameeee}")
-
+print(my_person.name, my_person.nameeee)
 
 class Person222:
     def __init__(self):  # Constructor de clase
@@ -29,6 +29,7 @@ class Person222:
 
 my_person = Person222()
 print(f"{my_person.name} {my_person.surname}")
+print(my_person.name)
 
 
 class Person:
@@ -90,10 +91,10 @@ print(my_person.get_name())
 #print(my_person.__surname) # No puedo acceder publicamente
 #print(my_person.__name) # No puedo acceder publicamente
 
-my_person.__name = "Testing" # Igual modifica lo que en teoria no
-                        # deberia modificar porque al hacerlo
-                        # __name deberia bloquear el acceso publico
-                        # REVISAR ESTO !!!!!!
+my_person.__name = "Testing" # No se puede modificar
+                        # REVISAR ESTO !!!!
+print(my_person.__name)
+print(my_person.get_name())
 
 
 
